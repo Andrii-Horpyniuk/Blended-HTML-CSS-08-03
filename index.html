@@ -20,101 +20,131 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="header">
-      <nav class="header-nav">
-        <a class="header-logo" href="./index.html">Product</a>
-        <ul class="header-menu-list">
-          <li class="header-menu-item">
-            <a class="header-menu-link" href="./index.html"
-              ><span class="header-logo-accent">Product</span></a
-            >
-          </li>
-          <li class="header-menu-item">
-            <a class="header-menu-link" href="./index.html">Pricing</a>
-          </li>
-          <li class="header-menu-item">
-            <a class="header-menu-link" href="./index.html">Customers</a>
-          </li>
-          <li class="header-menu-item">
-            <a class="header-menu-link" href="./index.html">Resources</a>
-          </li>
-        </ul>
-        <button class="header-in-btn" type="button">Sign In</button>
-        <button class="header-up-btn" type="button">Sign Up</button>
-      </nav>
+    <header class="header header-container">
+      <div class="container">
+        <nav class="header-nav">
+          <ul class="header-nav-list">
+            <li class="header-nav-item">
+              <a href="" class="header-logo-link">
+                <svg class="header-logo-picture" width="40" height="100">
+                  <use href="./images/symbol-defs.svg#icon-logo"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="header-logo" href="./index.html">Product</a>
+            </li>
+          </ul>
+
+          <ul class="header-menu-list">
+            <li class="header-menu-item">
+              <a class="header-menu-link" href="./index.html"
+                ><span class="header-logo-accent">Product</span></a
+              >
+            </li>
+            <li class="header-menu-item">
+              <a class="header-menu-link" href="./index.html">Pricing</a>
+            </li>
+            <li class="header-menu-item">
+              <a class="header-menu-link" href="./index.html">Customers</a>
+            </li>
+            <li class="header-menu-item">
+              <a class="header-menu-link" href="./index.html">Resources</a>
+            </li>
+          </ul>
+          <div class="header-btn-container">
+            <button class="header-in-btn" type="button">Sign In</button>
+            <button class="header-up-btn" type="button">Sign Up</button>
+          </div>
+        </nav>
+      </div>
     </header>
     <main>
       <!--  Work at the speed of thought-->
       <section class="hero">
-        <h1 class="hero-title">Work at the speed of thought</h1>
-        <p class="hero-text">
-          Tools, tutorials, design and innovation experts, all in one place! The
-          most intuitive way to imagine your next user experience.
-        </p>
-        <button class="hero-get-btn" type="button">Get started</button>
-        <button class="hero-watch-btn" type="button">Watch the Video</button>
-        <img
-          class="hero-img"
-          src="./images/hero-img.png"
-          alt="Hero img"
-          width="610"
-          height="555"
-        />
+        <div class="container">
+          <div class="hero-container">
+            <h1 class="hero-title">Work at the speed of thought</h1>
+            <p class="hero-text">
+              Tools, tutorials, design and innovation experts, all in one place!
+              The most intuitive way to imagine your next user experience.
+            </p>
+          </div>
+          <div class="hero-btn-container">
+            <button class="hero-get-btn" type="button">Get started</button>
+            <button class="hero-watch-btn" type="button">
+              Watch the Video
+            </button>
+          </div>
+          <img
+            class="hero-img"
+            src="./images/hero-img.png"
+            alt="Hero img"
+            width="610"
+            height="555"
+          />
+        </div>
       </section>
       <!--Product  was Built Specifically for You-->
       <section class="product">
-        <h2 class="product-title">Product was Built Specifically for You</h2>
-        <ul class="product-menu-list">
-          <li class="product-menu-item">
-            <img
-              class="product-img"
-              src="./images/icon-1.png"
-              alt="icon-1"
-              width="54"
-              height="62"
-            />
-            <h3 class="product-subtitle">First click tests</h3>
-            <p class="product-text">While most people enjoy casino gambling,</p>
-          </li>
-          <li class="product-menu-item">
-            <img
-              class="product-img"
-              src="./images/icon-2.png"
-              alt="icon-2"
-              width="54"
-              height="62"
-            />
-            <h3 class="product-subtitle">Design surveys</h3>
-            <p class="product-text">
-              Sports betting, lottery and bingo playing for the fun
-            </p>
-          </li>
-          <li class="product-menu-item">
-            <img
-              class="product-img"
-              src="./images/icon-3.png"
-              alt="icon-3"
-              width="54"
-              height="62"
-            />
-            <h3 class="product-subtitle">Preference tests</h3>
-            <p class="product-text">The Myspace page defines the individual.</p>
-          </li>
-          <li class="product-menu-item">
-            <img
-              class="product-img"
-              src="./images/icon-4.png"
-              alt="icon-4"
-              width="54"
-              height="62"
-            />
-            <h3 class="product-subtitle">Five second tests</h3>
-            <p class="product-text">
-              Personal choices and the overall personality of the person.
-            </p>
-          </li>
-        </ul>
-        <button class="product-btn" type="button">SIGN UP NOW</button>
+        <div class="container">
+          <h2 class="product-title">Product was Built Specifically for You</h2>
+          <ul class="product-menu-list">
+            <li class="product-menu-item">
+              <img
+                class="product-img"
+                src="./images/icon-1.png"
+                alt="icon-1"
+                width="54"
+                height="62"
+              />
+              <h3 class="product-subtitle">First click tests</h3>
+              <p class="product-text">
+                While most people enjoy casino gambling,
+              </p>
+            </li>
+            <li class="product-menu-item">
+              <img
+                class="product-img"
+                src="./images/icon-2.png"
+                alt="icon-2"
+                width="54"
+                height="62"
+              />
+              <h3 class="product-subtitle">Design surveys</h3>
+              <p class="product-text">
+                Sports betting, lottery and bingo playing for the fun
+              </p>
+            </li>
+            <li class="product-menu-item">
+              <img
+                class="product-img"
+                src="./images/icon-3.png"
+                alt="icon-3"
+                width="54"
+                height="62"
+              />
+              <h3 class="product-subtitle">Preference tests</h3>
+              <p class="product-text">
+                The Myspace page defines the individual.
+              </p>
+            </li>
+            <li class="product-menu-item">
+              <img
+                class="product-img"
+                src="./images/icon-4.png"
+                alt="icon-4"
+                width="54"
+                height="62"
+              />
+              <h3 class="product-subtitle">Five second tests</h3>
+              <p class="product-text">
+                Personal choices and the overall personality of the person.
+              </p>
+            </li>
+          </ul>
+          <button class="product-btn" type="button">SIGN UP NOW</button>
+        </div>
       </section>
       <!--Management, Customer Support, Collaborative-->
       <section>
