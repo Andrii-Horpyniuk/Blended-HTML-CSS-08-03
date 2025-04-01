@@ -28,24 +28,10 @@ h6 {
   padding-left: 15px;
   margin: 0 auto;
 }
-
+/*------------HEADER------------*/
 .header {
   max-width: 1110px;
   margin: 0 auto;
-}
-
-.header-nav-item {
-  width: 100%;
-  display: flex;
-  align-items: center;
-}
-
-.header-nav-list {
-  width: 100%;
-  height: 36px;
-  justify-content: center;
-  display: flex;
-  align-items: center;
 }
 
 .header-container {
@@ -55,6 +41,12 @@ h6 {
 .header-logo-picture {
   padding-top: 24px;
   padding-bottom: 24px;
+}
+
+.header-logo-container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
 .header-nav {
@@ -77,7 +69,7 @@ h6 {
 
 .header-btn-container {
   display: flex;
-  gap: 21px;
+  gap: 30px;
   margin-left: 73px;
 }
 
@@ -89,6 +81,14 @@ h6 {
 .header-up-btn:hover,
 .header-up-btn:focus {
   background-color: #404bbf;
+}
+
+.header-in-btn {
+  cursor: pointer;
+}
+
+.header-up-btn {
+  cursor: pointer;
 }
 
 .header-menu-link {
@@ -125,10 +125,24 @@ h6 {
   border-radius: 4px;
   border: none;
 }
+/*------------HEADER------------*/
+
+/*------------HERO------------*/
 
 .hero {
   max-width: 1110px;
   margin: 0 auto;
+  padding: 50px 0;
+}
+
+.hero-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-content {
+  max-width: 465px;
 }
 
 .hero-title {
@@ -136,12 +150,20 @@ h6 {
   font-size: 40px;
   line-height: 1.5;
   color: #22343d;
+  margin-bottom: 18px;
 }
+
 .hero-text {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.55556;
   color: #22343d;
+  margin-bottom: 45px;
+}
+
+.hero-btn-container {
+  display: flex;
+  gap: 20px;
 }
 
 .hero-get-btn {
@@ -153,24 +175,22 @@ h6 {
   height: 53px;
   background: #02897a;
   border: none;
+  cursor: pointer;
 }
 
 .hero-watch-btn {
   font-weight: 600;
   font-size: 16px;
   text-decoration: underline;
-  text-decoration-skip-ink: none;
   color: #02897a;
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 
-.hero-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 465px;
-  height: 233px;
+.hero-img {
+  max-width: 610px;
+  height: auto;
 }
 
-.hero-btn-container {
-  display: flex;
-}
+/*------------HERO------------*/

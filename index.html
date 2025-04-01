@@ -23,19 +23,14 @@
     <header class="header header-container">
       <div class="container">
         <nav class="header-nav">
-          <ul class="header-nav-list">
-            <li class="header-nav-item">
-              <a href="" class="header-logo-link">
-                <svg class="header-logo-picture" width="40" height="100">
-                  <use href="./images/symbol-defs.svg#icon-logo"></use>
-                </svg>
-              </a>
-            </li>
-            <li>
-              <a class="header-logo" href="./index.html">Product</a>
-            </li>
-          </ul>
-
+          <div class="header-logo-container">
+            <a href="" class="header-logo-link">
+              <svg class="header-logo-picture" width="40" height="100">
+                <use href="./images/symbol-defs.svg#icon-logo"></use>
+              </svg>
+            </a>
+            <a class="header-logo" href="./index.html">Product</a>
+          </div>
           <ul class="header-menu-list">
             <li class="header-menu-item">
               <a class="header-menu-link" href="./index.html"
@@ -63,26 +58,29 @@
       <!--  Work at the speed of thought-->
       <section class="hero">
         <div class="container">
-          <div class="hero-container">
-            <h1 class="hero-title">Work at the speed of thought</h1>
-            <p class="hero-text">
-              Tools, tutorials, design and innovation experts, all in one place!
-              The most intuitive way to imagine your next user experience.
-            </p>
+          <div class="hero-wrapper">
+            <div class="hero-content">
+              <h1 class="hero-title">Work at the speed of thought</h1>
+              <p class="hero-text">
+                Tools, tutorials, design and innovation experts, all in one
+                place! The most intuitive way to imagine your next user
+                experience.
+              </p>
+              <div class="hero-btn-container">
+                <button class="hero-get-btn" type="button">Get started</button>
+                <button class="hero-watch-btn" type="button">
+                  Watch the Video
+                </button>
+              </div>
+            </div>
+            <img
+              class="hero-img"
+              src="./images/hero-img.png"
+              alt="Hero img"
+              width="610"
+              height="555"
+            />
           </div>
-          <div class="hero-btn-container">
-            <button class="hero-get-btn" type="button">Get started</button>
-            <button class="hero-watch-btn" type="button">
-              Watch the Video
-            </button>
-          </div>
-          <img
-            class="hero-img"
-            src="./images/hero-img.png"
-            alt="Hero img"
-            width="610"
-            height="555"
-          />
         </div>
       </section>
       <!--Product  was Built Specifically for You-->
