@@ -443,3 +443,13 @@ h6 {
   margin-bottom: 25px;
 }
 /*------------Management------------*/
+
+/*------------Staff------------*/
+
+.staff-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/*------------Staff------------*/
