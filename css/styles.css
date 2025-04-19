@@ -25,6 +25,12 @@ h6 {
   margin-bottom: 0;
 }
 
+/* img {
+  display: block;
+  width: 100%;
+  height: auto;
+} */
+
 .container {
   width: 1158px;
   padding-right: 15px;
@@ -444,16 +450,6 @@ h6 {
 }
 /*------------Management------------*/
 
-/*------------Staff------------*/
-
-.staff-list {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-/*------------Staff------------*/
-
 /*------------Contents Strategies------------*/
 .news-list {
   display: flex;
@@ -534,3 +530,99 @@ h6 {
 }
 
 /*------------Contents Strategies------------*/
+
+/*------------Staff------------*/
+
+.staff-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.staff-title {
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  color: #22343d;
+  margin-bottom: 25px;
+}
+
+.staff-container {
+  max-width: 542px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.staff-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  color: #22343d;
+}
+
+.staff-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px 91px;
+  justify-content: center;
+
+  margin-bottom: 50px;
+  list-style: none;
+  padding: 0;
+
+  margin-bottom: 50px;
+}
+
+.staff-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  max-width: 408px;
+  flex-basis: calc((100% - 24px) / 2);
+}
+
+.staff-img {
+  width: 98px;
+  height: 98px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid transparent;
+}
+
+.staff-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  padding: 16px 24px;
+  color: #2f281e;
+  background-color: #ffffff;
+  border-radius: 25px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
+  white-space: nowrap;
+  max-width: 281px;
+}
+
+.staff-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 14px 32px;
+  background-color: #02897a;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.staff-btn:hover,
+.staff-btn:focus {
+  background: #404bbf;
+}
